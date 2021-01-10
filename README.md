@@ -79,11 +79,11 @@ businesses. SON algorithm on top of PCY was used on the Yelp reviews dataset to 
 * This greedy model employed Arc-standard system of transitions to predict one transition (shift, left-arc, right-arc)
 at a time based on the state of buffer, stack and the dependency arc set. Unlabelled Attachment score (UAS)-88.59
 
-### Swype - A dating app | [Github]() | Java, Android studio, Firebase Database
+### Swype - A dating app | [Github](https://github.com/RishikeshDhayarkar/Swype) | Java, Android studio, Firebase Database
 * Uses the swiping mechanism for like/dislike. Candidates can be filtered based on distance, age, gender, etc.
 Location and distance features handled using Google Maps API. Includes private chat functionality
 
-### Prattle - A social media app | [Github](https://github.com/RishikeshDhayarkar/Swype)(https://github.com/RishikeshDhayarkar/Prattle) | Java, Android studio, Firebase
+### Prattle - A social media app | [Github](https://github.com/RishikeshDhayarkar/Prattle) | Java, Android studio, Firebase
 * Developed a social media application that facilitates image sharing experience. User data managed via Firebase
 database. Includes features such as Post, Like, Comment, Connect/Follow, inbuilt private chat system
 
