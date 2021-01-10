@@ -5,7 +5,7 @@
 * The character level decoder gets triggered when the word level decoder fails to translate
 * Sub-word modelling helps in producing rare words, out of vocabulary target words, and also handles transliteration
 
-[__Object detection__] | Python, Pytorch, Matplotlib, Numpy 
+##H2 __Object detection__ | Python, Pytorch, Matplotlib, Numpy 
 * Implemented a single stage detector, YOLO v2 from scratch.Trained and tested on PASCAL VOC 2007 dataset |
 [Github](https://github.com/RishikeshDhayarkar/UMich-Computer-Vision/tree/master/yolo)
 * This model was then enhanced to create a region proposal network with an ROI align function. Classification and
