@@ -56,23 +56,23 @@ image patterns and observe the randomness of the predicted classes for perturbed
 targetted attacks based on Fast Gradient Sign Methods(FSGM) were implemented. Experimentation was done to
 analyse if adversarial retraining was a valid defense against these attacks. | [Github](https://github.com/RishikeshDhayarkar/ECE-GY-9163-ML-for-Cyber-Security/blob/main/A2/rbd291_ML_sec_A2.ipynb)
 
-### Recommender System - !!!!! | [Github]() | python, pyspark
+### Recommender System | [Github](https://github.com/RishikeshDhayarkar/Algorithms-for-Big-Data/blob/main/Recommender%20Systems/collaborative_filtering.ipynb) | python, pyspark
 * Implemented a recommender system to predict the ratings/stars for the given user ids and business ids on the Yelp
 reviews dataset. Collaborative Filtering algorithm was used and an RMS error of 1.115 was obtained using this
 implementation
 
-### LSH for Approximate Nearest Neighbours-!!!!! | [Github]() | python, pyspark
+### LSH for Approximate Nearest Neighbours | python, pyspark
 * Constructed an algorithm based on LSH to find similar businesses according to the customer ratings. This was
-done on the Yelp reviews dataset and a similarity metric of Jaccard similarity was used.
+done on the Yelp reviews dataset and a similarity metric of Jaccard similarity was used [Github](https://github.com/RishikeshDhayarkar/Algorithms-for-Big-Data/blob/main/Locality%20sensitive%20hashing/LSH_yelp.ipynb).
 * Performed a comparison of Linear Search and Approximate Nearest Neighbour search using LSH on a dataset of
 images. Images of size 20x20 and a distance metric of L1 were used. LSH based approach had a speed-up of 4.21
-over the linear search method.
+over the linear search method [Github](https://github.com/RishikeshDhayarkar/Algorithms-for-Big-Data/blob/main/Locality%20sensitive%20hashing/LSH_ANN.ipynb).
 
-### Generating Frequent itemsets-!!!!! | [Github]() | python, pyspark 
+### Generating Frequent itemsets | [Github](https://github.com/RishikeshDhayarkar/Algorithms-for-Big-Data/blob/main/Frequent%20itemsets/SON_with_PCY.ipynb) | python, pyspark 
 * Implemented an algorithm to find frequent businesses reviewed/visited by customers and frequent customers for all
 businesses. SON algorithm on top of PCY was used on the Yelp reviews dataset to achieve this goal
 
-### Sentiment Analysis using Contextual Embeddings-!!!!!|[Github]()|python, pytorch
+### Sentiment Analysis using Contextual Embeddings | [Github](https://github.com/RishikeshDhayarkar/cs224n/blob/master/bert_sentiment_analysis.ipynb)|python, pytorch
 * Built an algorithm to classify the customer reviews for apps on Google Playstore.  Review features were extractedusing BERT embeddings.  Reviews were classified as positive, negative, or neutral with an accuracy of 87.64%
 
 ### Neural Dependency Parser | [Github](https://github.com/RishikeshDhayarkar/cs224n/tree/master/a3/student) |Python, Pytorch, Numpy, Nltk
